@@ -1,0 +1,139 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "typeMap"
+- "SetRouteAction"
+provides-nominal:
+- "V13ReSwiftRouter14SetRouteAction"
+provides-member:
+- ["V13ReSwiftRouter14SetRouteAction", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SetRouteAction"
+- "StringLiteralType"
+- "StandardAction"
+- "typeMap"
+- "String"
+- "StandardActionConvertible"
+- !private "BooleanLiteralType"
+- "Route"
+- "Dictionary"
+depends-member:
+- !private ["P7ReSwift6Action", "SetRouteAction"]
+- !private ["P7ReSwift6Action", "StandardAction"]
+- ["P7ReSwift6Action", "init"]
+- !private ["P7ReSwift6Action", "payload"]
+- !private ["P7ReSwift6Action", "route"]
+- ["P7ReSwift6Action", "toStandardAction"]
+- !private ["P7ReSwift6Action", "type"]
+- ["P7ReSwift6Action", ""]
+- !private ["Sa", "deinit"]
+- !private ["P7ReSwift6Coding", "init"]
+- !private ["P7ReSwift6Coding", "payload"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Key"]
+- ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- ["PSs23CustomStringConvertible", "Key"]
+- ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["VSs10Dictionary", "Index"]
+- ["VSs10Dictionary", "Key"]
+- ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- ["PSs28DictionaryLiteralConvertible", "Key"]
+- ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- ["V13ReSwiftRouter14SetRouteAction", "Route"]
+- !private ["V13ReSwiftRouter14SetRouteAction", "SetRouteAction"]
+- ["V13ReSwiftRouter14SetRouteAction", "StandardAction"]
+- ["V13ReSwiftRouter14SetRouteAction", "deinit"]
+- ["V13ReSwiftRouter14SetRouteAction", "init"]
+- ["V13ReSwiftRouter14SetRouteAction", "route"]
+- ["V13ReSwiftRouter14SetRouteAction", "toStandardAction"]
+- ["V13ReSwiftRouter14SetRouteAction", "type"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["V7ReSwift14StandardAction", "init"]
+- !private ["V7ReSwift14StandardAction", "payload"]
+- !private ["P7ReSwift25StandardActionConvertible", "SetRouteAction"]
+- !private ["P7ReSwift25StandardActionConvertible", "StandardAction"]
+- ["P7ReSwift25StandardActionConvertible", "init"]
+- !private ["P7ReSwift25StandardActionConvertible", "route"]
+- ["P7ReSwift25StandardActionConvertible", "toStandardAction"]
+- !private ["P7ReSwift25StandardActionConvertible", "type"]
+- ["P7ReSwift25StandardActionConvertible", ""]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- ["PSs21_ObjectiveCBridgeable", "Key"]
+- ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- ["PSs12_Reflectable", "Key"]
+- ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "P7ReSwift6Action"
+- !private "Sa"
+- !private "P7ReSwift6Coding"
+- "PSs14CollectionType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "VSs10Dictionary"
+- "PSs28DictionaryLiteralConvertible"
+- !private "PSs13GeneratorType"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Sq"
+- "PSs12SequenceType"
+- "V13ReSwiftRouter14SetRouteAction"
+- !private "VSs5Slice"
+- !private "V7ReSwift14StandardAction"
+- "P7ReSwift25StandardActionConvertible"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwiftRouter/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/ReSwiftRouter.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwift/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/ReSwift.build/module.modulemap"
+interface-hash: "20e366a1be181acdea178b70c6491f84"

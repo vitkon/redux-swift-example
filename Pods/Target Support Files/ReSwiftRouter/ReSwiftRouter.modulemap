@@ -1,0 +1,6 @@
+framework module ReSwiftRouter {
+  umbrella header "ReSwiftRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

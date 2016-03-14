@@ -1,0 +1,59 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoreType"
+provides-nominal:
+- "P7ReSwift9StoreType"
+provides-member:
+- ["P7ReSwift9StoreType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StoreType"
+- "Action"
+- "Any"
+- "StateType"
+- "AnyStoreSubscriber"
+- "AnyReducer"
+- !private "StoreSubscriber"
+- "Void"
+- "Middleware"
+- "DispatchFunction"
+depends-member:
+- ["P7ReSwift18AnyStoreSubscriber", "StoreSubscriberStateType"]
+- ["P7ReSwift15StoreSubscriber", "StoreSubscriberStateType"]
+- ["P7ReSwift9StoreType", "Action"]
+- ["P7ReSwift9StoreType", "ActionCreator"]
+- ["P7ReSwift9StoreType", "Any"]
+- ["P7ReSwift9StoreType", "AnyReducer"]
+- ["P7ReSwift9StoreType", "AnyStoreSubscriber"]
+- ["P7ReSwift9StoreType", "AsyncActionCreator"]
+- ["P7ReSwift9StoreType", "DispatchCallback"]
+- ["P7ReSwift9StoreType", "DispatchFunction"]
+- ["P7ReSwift9StoreType", "Middleware"]
+- ["P7ReSwift9StoreType", "State"]
+- ["P7ReSwift9StoreType", "StateType"]
+- !private ["P7ReSwift9StoreType", "StoreSubscriber"]
+- ["P7ReSwift9StoreType", "StoreType"]
+- ["P7ReSwift9StoreType", "Void"]
+- ["P7ReSwift9StoreType", "dispatch"]
+- ["P7ReSwift9StoreType", "dispatchFunction"]
+- ["P7ReSwift9StoreType", "init"]
+- ["P7ReSwift9StoreType", "state"]
+- ["P7ReSwift9StoreType", "subscribe"]
+- ["P7ReSwift9StoreType", "unsubscribe"]
+depends-nominal:
+- "P7ReSwift18AnyStoreSubscriber"
+- "P7ReSwift15StoreSubscriber"
+- "P7ReSwift9StoreType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwift/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "099b0d80aa2486df607eaca4cbb8c893"

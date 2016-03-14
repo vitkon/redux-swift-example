@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/ParseManager.m \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target\ Support\ Files/Parse/Parse-prefix.pch \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/ParseManager.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/ParseClientConfiguration.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFConstants.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFDataProvider.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/LocalDataStore/OfflineStore/PFOfflineStore.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFMacros.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Bolts/BFExecutor.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/BFTask+Private.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Bolts/BFTask.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Bolts/BFCancellationToken.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Bolts/BFCancellationTokenRegistration.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFInternalUtils.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFEncoder.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Analytics/Controller/PFAnalyticsController.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFAssert.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFCommandCache.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFEventuallyQueue.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFNetworkCommand.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFConfig.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFCoreManager.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFCoreDataProvider.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFFileManager.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Installation/InstallationIdentifierStore/PFInstallationIdentifierStore.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/KeyValueCache/PFKeyValueCache.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFKeychainStore.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFLogging.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFLogger.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/MultiProcessLock/PFMultiProcessFileLockController.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/PFPinningEventuallyQueue.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFUser.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFObject.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFSubclassing.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunning.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Persistence/PFPersistenceController.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Persistence/Group/PFPersistenceGroup.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Push/Manager/PFPushManager.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFInstallation.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFProduct.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Parse/PFFile.h

@@ -1,0 +1,10 @@
+framework module ReSwift {
+  umbrella header "ReSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ReSwift.__Swift {
+    exclude header "ReSwift-Swift.h"
+}

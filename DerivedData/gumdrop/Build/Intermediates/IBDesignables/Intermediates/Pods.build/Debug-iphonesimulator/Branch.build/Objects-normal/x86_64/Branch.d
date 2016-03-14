@@ -1,0 +1,38 @@
+dependencies: \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/Branch.m \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target\ Support\ Files/Branch/Branch-prefix.pch \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/Branch.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BranchActivityItemProvider.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerInterface.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerResponse.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCPreferenceHelper.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerRequestQueue.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BNCServerRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkCache.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkData.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BranchDeepLinkingController.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCSystemObserver.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCConfig.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCError.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCEncodingUtils.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BNCStrongMatchHelper.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BranchUniversalObject.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Branch/Branch-SDK/Branch-SDK/BranchLinkProperties.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchSetIdentityRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchLogoutRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchLoadActionsRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchUserCompletedActionRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchLoadRewardsRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchRedeemRewardsRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchCreditHistoryRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchGetPromoCodeRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchValidatePromoCodeRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchApplyPromoCodeRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchShortUrlRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchShortUrlSyncRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchCloseRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchOpenRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchInstallRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchSpotlightUrlRequest.h \
+  /Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Private/Branch/BranchRegisterViewRequest.h

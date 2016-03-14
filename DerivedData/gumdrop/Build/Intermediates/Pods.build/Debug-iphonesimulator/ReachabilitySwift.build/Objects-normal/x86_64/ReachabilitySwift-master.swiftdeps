@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "723e4dbe6b17ac7b0b86b3c20e837d79"
+build_time: [511218905, 80074000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReachabilitySwift/Reachability/Reachability.swift": [510763200, 0]

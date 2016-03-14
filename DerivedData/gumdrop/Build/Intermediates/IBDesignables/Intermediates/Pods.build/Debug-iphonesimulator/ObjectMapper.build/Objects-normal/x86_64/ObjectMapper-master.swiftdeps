@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "a7a1e9c6be903e05b781a241814927b8"
+build_time: [511218176, 346178000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/TransformType.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/EnumTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/URLTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/ISO8601DateTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/FromJSON.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/Map.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/CustomDateFormatTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/Mappable.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/DateFormatterTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/DateTransform.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/Operators.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/Mapper.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Core/ToJSON.swift": [510763147, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ObjectMapper/ObjectMapper/Transforms/TransformOf.swift": [510763147, 0]

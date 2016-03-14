@@ -1,0 +1,10 @@
+framework module ImageLoader {
+  umbrella header "ImageLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ImageLoader.__Swift {
+    exclude header "ImageLoader-Swift.h"
+}

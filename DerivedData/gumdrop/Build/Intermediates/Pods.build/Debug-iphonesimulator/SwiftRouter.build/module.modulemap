@@ -1,0 +1,10 @@
+framework module SwiftRouter {
+  umbrella header "SwiftRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftRouter.Swift {
+    header "SwiftRouter-Swift.h"
+}

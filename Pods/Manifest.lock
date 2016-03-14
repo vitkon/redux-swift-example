@@ -1,0 +1,64 @@
+PODS:
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Branch (0.11.17)
+  - FBSDKCoreKit (4.10.0):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.0):
+    - FBSDKCoreKit
+  - ImageLoader (0.8.8)
+  - Localytics (3.7.0)
+  - ObjectMapper (1.1.5)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+  - ParseCrashReporting (1.9.2):
+    - Bolts/Tasks (~> 1.5)
+    - Parse (~> 1.9)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - ReachabilitySwift (2.3.3)
+  - ReSwift (0.2.5)
+  - ReSwiftRouter (0.2.5):
+    - ReSwift (= 0.2.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Branch
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - ImageLoader
+  - Localytics
+  - ObjectMapper
+  - Parse
+  - ParseCrashReporting
+  - ParseFacebookUtilsV4
+  - ReachabilitySwift
+  - ReSwift
+  - ReSwiftRouter
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Branch: 57e2714109c9bb59c0b88dddf94d200bc89f2fa8
+  FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
+  FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
+  ImageLoader: 6bc633e7d679136b742a609b832d2bb19e53f3a5
+  Localytics: 87e54851db13da8750f6a82d49b23e843cadf358
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  ParseCrashReporting: 33b760facc649d4fd99eef8f35dcda6a406099e5
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  ReSwift: 0c7e65229f1457f13ed6be35342c1295df9bf9d9
+  ReSwiftRouter: d132a671bccf11958c31c0898547e06145d2614d
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

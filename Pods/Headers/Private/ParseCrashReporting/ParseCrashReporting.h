@@ -1,0 +1,1 @@
+../../../ParseCrashReporting/ParseCrashReporting.h

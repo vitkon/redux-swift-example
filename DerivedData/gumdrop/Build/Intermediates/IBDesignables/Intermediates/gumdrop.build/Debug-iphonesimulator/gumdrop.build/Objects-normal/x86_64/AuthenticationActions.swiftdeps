@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "authenticateUser"
+- "UpdateLoggedInState"
+provides-nominal:
+- "V7gumdrop19UpdateLoggedInState"
+provides-member:
+- ["V7gumdrop19UpdateLoggedInState", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "feedRoute"
+- "LoggedInState"
+- !private "FBSDKAccessToken"
+- !private "SetRouteAction"
+- !private "&&"
+- !private "StringLiteralType"
+- !private "PFFacebookUtils"
+- !private "Array"
+- !private "FBSDKLoginManager"
+- "Action"
+- "AppState"
+- !private "Void"
+- "Store"
+- "authenticateUser"
+- "UpdateLoggedInState"
+- "BooleanLiteralType"
+depends-member:
+- !private ["P7ReSwift6Action", "init"]
+- ["P7ReSwift6Action", ""]
+- !private ["PSs9AnyObject", "currentAccessToken"]
+- !private ["PSs9AnyObject", "dispatch"]
+- !private ["PSs9AnyObject", "grantedPermissions"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isCancelled"]
+- !private ["PSs9AnyObject", "logInInBackgroundWithAccessToken"]
+- !private ["PSs9AnyObject", "logInWithReadPermissions"]
+- ["V7gumdrop8AppState", "deinit"]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "contains"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "currentAccessToken"]
+- !private ["PSs11CVarArgType", "grantedPermissions"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isCancelled"]
+- !private ["PSs11CVarArgType", "logInInBackgroundWithAccessToken"]
+- !private ["PSs11CVarArgType", "logInWithReadPermissions"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "contains"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "contains"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "contains"]
+- !private ["PSs23CustomStringConvertible", "currentAccessToken"]
+- !private ["PSs23CustomStringConvertible", "grantedPermissions"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isCancelled"]
+- !private ["PSs23CustomStringConvertible", "logInInBackgroundWithAccessToken"]
+- !private ["PSs23CustomStringConvertible", "logInWithReadPermissions"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "LoggedIn"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "contains"]
+- !private ["PSs9Equatable", "currentAccessToken"]
+- !private ["PSs9Equatable", "grantedPermissions"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isCancelled"]
+- !private ["PSs9Equatable", "logInInBackgroundWithAccessToken"]
+- !private ["PSs9Equatable", "logInWithReadPermissions"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["CSo17FBSDKLoginManager", "init"]
+- !private ["CSo17FBSDKLoginManager", "logInWithReadPermissions"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "grantedPermissions"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "isCancelled"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Generator"]
+- !private ["PSs8Hashable", "LoggedIn"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "contains"]
+- !private ["PSs8Hashable", "currentAccessToken"]
+- !private ["PSs8Hashable", "grantedPermissions"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isCancelled"]
+- !private ["PSs8Hashable", "logInInBackgroundWithAccessToken"]
+- !private ["PSs8Hashable", "logInWithReadPermissions"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "contains"]
+- !private ["O7gumdrop13LoggedInState", "LoggedIn"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "grantedPermissions"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCancelled"]
+- !private ["CSo8NSObject", "logInInBackgroundWithAccessToken"]
+- !private ["CSo8NSObject", "logInWithReadPermissions"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "grantedPermissions"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCancelled"]
+- !private ["PSo16NSObjectProtocol", "logInInBackgroundWithAccessToken"]
+- !private ["PSo16NSObjectProtocol", "logInWithReadPermissions"]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["Sq", "deinit"]
+- !private ["CSo15PFFacebookUtils", "logInInBackgroundWithAccessToken"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "contains"]
+- !private ["VSs3Set", "Generator"]
+- !private ["VSs3Set", "contains"]
+- !private ["VSs12SetGenerator", "Element"]
+- !private ["V13ReSwiftRouter14SetRouteAction", "init"]
+- !private ["V7ReSwift14StandardAction", "deinit"]
+- !private ["P7ReSwift25StandardActionConvertible", "init"]
+- !private ["C7ReSwift5Store", "dispatch"]
+- !private ["P7ReSwift9StoreType", "dispatch"]
+- ["V7gumdrop19UpdateLoggedInState", "LoggedInState"]
+- ["V7gumdrop19UpdateLoggedInState", "deinit"]
+- ["V7gumdrop19UpdateLoggedInState", "init"]
+- ["V7gumdrop19UpdateLoggedInState", "loggedInState"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "contains"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "contains"]
+depends-nominal:
+- "P7ReSwift6Action"
+- !private "PSs9AnyObject"
+- "V7gumdrop8AppState"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- !private "CSo17FBSDKLoginManager"
+- !private "CSo28FBSDKLoginManagerLoginResult"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "O7gumdrop13LoggedInState"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "CSo15PFFacebookUtils"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "VSs3Set"
+- !private "VSs12SetGenerator"
+- !private "V13ReSwiftRouter14SetRouteAction"
+- !private "V7ReSwift14StandardAction"
+- !private "P7ReSwift25StandardActionConvertible"
+- !private "C7ReSwift5Store"
+- !private "P7ReSwift9StoreType"
+- "V7gumdrop19UpdateLoggedInState"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/gumdrop-Bridging-Header.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Public/Localytics/Localytics.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/ReSwiftRouter.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/PFFacebookUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Modules/module.modulemap"
+interface-hash: "cf782677b61ee0e72788ef8f8e2137d7"

@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "C7gumdrop19LoginViewController"
+provides-member:
+- ["C7gumdrop19LoginViewController", ""]
+provides-dynamic-lookup:
+- "viewWillDisappear"
+- "loginButton"
+- "viewDidLoad"
+- "onLoginButtonTap"
+- "viewWillAppear"
+depends-top-level:
+- "UIViewController"
+- "UIButton"
+- "LoginViewController"
+- "Bool"
+- "AuthenticationState"
+- !private "store"
+- "AnyObject"
+- "StoreSubscriber"
+- !private "authenticateUser"
+depends-member:
+- !private ["PSs9AnyObject", "StoreSubscriberStateType"]
+- ["PSs9AnyObject", "_newState"]
+- !private ["PSs9AnyObject", "authenticateUser"]
+- !private ["PSs9AnyObject", "dispatch"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "loginButton"]
+- ["PSs9AnyObject", "newState"]
+- ["PSs9AnyObject", "onLoginButtonTap"]
+- !private ["PSs9AnyObject", "store"]
+- !private ["PSs9AnyObject", "subscribe"]
+- !private ["PSs9AnyObject", "unsubscribe"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewWillAppear"]
+- ["PSs9AnyObject", "viewWillDisappear"]
+- ["PSs9AnyObject", ""]
+- !private ["P7ReSwift18AnyStoreSubscriber", "StoreSubscriberStateType"]
+- ["P7ReSwift18AnyStoreSubscriber", "_newState"]
+- !private ["P7ReSwift18AnyStoreSubscriber", "authenticateUser"]
+- ["P7ReSwift18AnyStoreSubscriber", "newState"]
+- !private ["P7ReSwift18AnyStoreSubscriber", "store"]
+- ["P7ReSwift18AnyStoreSubscriber", ""]
+- !private ["V7gumdrop8AppState", "authenticationState"]
+- !private ["V7gumdrop8AppState", "deinit"]
+- !private ["PSs11CVarArgType", "StoreSubscriberStateType"]
+- ["PSs11CVarArgType", "_newState"]
+- !private ["PSs11CVarArgType", "authenticateUser"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "loginButton"]
+- ["PSs11CVarArgType", "newState"]
+- ["PSs11CVarArgType", "onLoginButtonTap"]
+- !private ["PSs11CVarArgType", "store"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewWillAppear"]
+- ["PSs11CVarArgType", "viewWillDisappear"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "StoreSubscriberStateType"]
+- ["PSs23CustomStringConvertible", "_newState"]
+- !private ["PSs23CustomStringConvertible", "authenticateUser"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "loginButton"]
+- ["PSs23CustomStringConvertible", "newState"]
+- ["PSs23CustomStringConvertible", "onLoginButtonTap"]
+- !private ["PSs23CustomStringConvertible", "store"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewWillAppear"]
+- ["PSs23CustomStringConvertible", "viewWillDisappear"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "StoreSubscriberStateType"]
+- ["PSs9Equatable", "_newState"]
+- !private ["PSs9Equatable", "authenticateUser"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "loginButton"]
+- ["PSs9Equatable", "newState"]
+- ["PSs9Equatable", "onLoginButtonTap"]
+- !private ["PSs9Equatable", "store"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewWillAppear"]
+- ["PSs9Equatable", "viewWillDisappear"]
+- ["PSs9Equatable", ""]
+- !private ["P7gumdrop22HasAuthenticationState", "authenticationState"]
+- !private ["P7gumdrop18HasNavigationState", "authenticationState"]
+- !private ["PSs8Hashable", "StoreSubscriberStateType"]
+- ["PSs8Hashable", "_newState"]
+- !private ["PSs8Hashable", "authenticateUser"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "loginButton"]
+- ["PSs8Hashable", "newState"]
+- ["PSs8Hashable", "onLoginButtonTap"]
+- !private ["PSs8Hashable", "store"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewWillAppear"]
+- ["PSs8Hashable", "viewWillDisappear"]
+- ["PSs8Hashable", ""]
+- ["C7gumdrop19LoginViewController", "AnyObject"]
+- ["C7gumdrop19LoginViewController", "AuthenticationState"]
+- ["C7gumdrop19LoginViewController", "Bool"]
+- ["C7gumdrop19LoginViewController", "StoreSubscriberStateType"]
+- ["C7gumdrop19LoginViewController", "UIButton"]
+- ["C7gumdrop19LoginViewController", "_newState"]
+- !private ["C7gumdrop19LoginViewController", "authenticateUser"]
+- ["C7gumdrop19LoginViewController", "deinit"]
+- ["C7gumdrop19LoginViewController", "init"]
+- ["C7gumdrop19LoginViewController", "loginButton"]
+- ["C7gumdrop19LoginViewController", "newState"]
+- ["C7gumdrop19LoginViewController", "onLoginButtonTap"]
+- !private ["C7gumdrop19LoginViewController", "store"]
+- ["C7gumdrop19LoginViewController", "viewDidLoad"]
+- ["C7gumdrop19LoginViewController", "viewWillAppear"]
+- ["C7gumdrop19LoginViewController", "viewWillDisappear"]
+- !private ["PSo8NSCoding", "StoreSubscriberStateType"]
+- ["PSo8NSCoding", "_newState"]
+- !private ["PSo8NSCoding", "authenticateUser"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "newState"]
+- ["PSo8NSCoding", "onLoginButtonTap"]
+- !private ["PSo8NSCoding", "store"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "viewWillDisappear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "StoreSubscriberStateType"]
+- ["PSo26NSExtensionRequestHandling", "_newState"]
+- !private ["PSo26NSExtensionRequestHandling", "authenticateUser"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "newState"]
+- ["PSo26NSExtensionRequestHandling", "onLoginButtonTap"]
+- !private ["PSo26NSExtensionRequestHandling", "store"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AuthenticationState"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "StoreSubscriberStateType"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "_newState"]
+- !private ["CSo8NSObject", "authenticateUser"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "newState"]
+- ["CSo8NSObject", "onLoginButtonTap"]
+- !private ["CSo8NSObject", "store"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "viewWillDisappear"]
+- !private ["PSo16NSObjectProtocol", "StoreSubscriberStateType"]
+- ["PSo16NSObjectProtocol", "_newState"]
+- !private ["PSo16NSObjectProtocol", "authenticateUser"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "newState"]
+- ["PSo16NSObjectProtocol", "onLoginButtonTap"]
+- !private ["PSo16NSObjectProtocol", "store"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P7ReSwift9StateType", "authenticationState"]
+- !private ["C7ReSwift5Store", "dispatch"]
+- !private ["C7ReSwift5Store", "subscribe"]
+- !private ["C7ReSwift5Store", "unsubscribe"]
+- !private ["P7ReSwift15StoreSubscriber", "StoreSubscriberStateType"]
+- ["P7ReSwift15StoreSubscriber", "_newState"]
+- !private ["P7ReSwift15StoreSubscriber", "authenticateUser"]
+- ["P7ReSwift15StoreSubscriber", "newState"]
+- !private ["P7ReSwift15StoreSubscriber", "store"]
+- ["P7ReSwift15StoreSubscriber", ""]
+- !private ["P7ReSwift9StoreType", "dispatch"]
+- !private ["P7ReSwift9StoreType", "subscribe"]
+- !private ["P7ReSwift9StoreType", "unsubscribe"]
+- !private ["PSo21UIAppearanceContainer", "StoreSubscriberStateType"]
+- ["PSo21UIAppearanceContainer", "_newState"]
+- !private ["PSo21UIAppearanceContainer", "authenticateUser"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "newState"]
+- ["PSo21UIAppearanceContainer", "onLoginButtonTap"]
+- !private ["PSo21UIAppearanceContainer", "store"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "StoreSubscriberStateType"]
+- ["PSo18UIContentContainer", "_newState"]
+- !private ["PSo18UIContentContainer", "authenticateUser"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "newState"]
+- ["PSo18UIContentContainer", "onLoginButtonTap"]
+- !private ["PSo18UIContentContainer", "store"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "StoreSubscriberStateType"]
+- ["PSo18UIFocusEnvironment", "_newState"]
+- !private ["PSo18UIFocusEnvironment", "authenticateUser"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "newState"]
+- ["PSo18UIFocusEnvironment", "onLoginButtonTap"]
+- !private ["PSo18UIFocusEnvironment", "store"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AuthenticationState"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "StoreSubscriberStateType"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "_newState"]
+- !private ["CSo11UIResponder", "authenticateUser"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "newState"]
+- ["CSo11UIResponder", "onLoginButtonTap"]
+- !private ["CSo11UIResponder", "store"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "viewWillDisappear"]
+- !private ["PSo16UIStateRestoring", "StoreSubscriberStateType"]
+- ["PSo16UIStateRestoring", "_newState"]
+- !private ["PSo16UIStateRestoring", "authenticateUser"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "newState"]
+- ["PSo16UIStateRestoring", "onLoginButtonTap"]
+- !private ["PSo16UIStateRestoring", "store"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "StoreSubscriberStateType"]
+- ["PSo18UITraitEnvironment", "_newState"]
+- !private ["PSo18UITraitEnvironment", "authenticateUser"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "newState"]
+- ["PSo18UITraitEnvironment", "onLoginButtonTap"]
+- !private ["PSo18UITraitEnvironment", "store"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "AuthenticationState"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "StoreSubscriberStateType"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "_newState"]
+- !private ["CSo16UIViewController", "authenticateUser"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "newState"]
+- ["CSo16UIViewController", "onLoginButtonTap"]
+- !private ["CSo16UIViewController", "store"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "viewWillDisappear"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "P7ReSwift18AnyStoreSubscriber"
+- !private "V7gumdrop8AppState"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "P7gumdrop22HasAuthenticationState"
+- !private "P7gumdrop18HasNavigationState"
+- "PSs8Hashable"
+- "C7gumdrop19LoginViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "P7ReSwift9StateType"
+- !private "C7ReSwift5Store"
+- "P7ReSwift15StoreSubscriber"
+- !private "P7ReSwift9StoreType"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/gumdrop-Bridging-Header.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Public/Localytics/Localytics.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/ReSwiftRouter.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/PFFacebookUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Modules/module.modulemap"
+interface-hash: "862d608a8306e7b6a44615add91202b3"

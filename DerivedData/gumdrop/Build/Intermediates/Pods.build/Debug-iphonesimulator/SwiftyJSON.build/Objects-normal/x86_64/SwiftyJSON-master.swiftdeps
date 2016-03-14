@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d150a1957f6daa42c11e782803fddc3b"
+build_time: [511218905, 781918000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [510763202, 0]

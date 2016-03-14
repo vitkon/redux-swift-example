@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b34c7236ef5db1eacdb40501fdcc0870"
+build_time: [510770113, 9304000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/SwiftRouter/SwiftRouter/SwiftRouter/SwiftRouter.swift": !dirty [510767867, 0]

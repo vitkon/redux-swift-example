@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5mA-Ic-6OM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Feed View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="FeedViewController" id="BYZ-38-t0r" customClass="FeedViewController" customModule="gumdrop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR7-LP-XoA">
+                                <rect key="frame" x="145" y="319" width="85" height="30"/>
+                                <state key="normal" title="Main Screen"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hR7-LP-XoA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8AK-Jf-z1a"/>
+                            <constraint firstItem="hR7-LP-XoA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vlQ-Pd-rrw"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370.5" y="448.5"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="zZG-OG-33Q">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="5mA-Ic-6OM" customClass="LoginViewController" customModule="gumdrop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Wx-lG-lDw"/>
+                        <viewControllerLayoutGuide type="bottom" id="itC-ep-o9Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lqW-Yn-s61">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpI-UR-Iq9">
+                                <rect key="frame" x="16" y="617" width="343" height="30"/>
+                                <state key="normal" title="Continue with Facebook"/>
+                                <connections>
+                                    <action selector="onLoginButtonTap:" destination="5mA-Ic-6OM" eventType="touchUpInside" id="WNo-gr-I8M"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_photo_1" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-Xa-M1k">
+                                <rect key="frame" x="-4" y="20" width="383" height="460"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-V9-eNA">
+                                <rect key="frame" x="97" y="219" width="181" height="63"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cx-sx-Bsq">
+                                <rect key="frame" x="-4" y="292" width="383" height="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Turn your">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" free time ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="into">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" free stuff">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcK-3J-oRw" customClass="CircularImageView" customModule="gumdrop" customModuleProvider="target">
+                                <rect key="frame" x="138" y="347" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="PXd-1d-tzK"/>
+                                    <constraint firstAttribute="height" constant="100" id="iuy-a3-bHI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zcK-3J-oRw" firstAttribute="centerX" secondItem="lqW-Yn-s61" secondAttribute="centerX" id="6Jt-f9-iWX"/>
+                            <constraint firstItem="iUh-Xa-M1k" firstAttribute="centerX" secondItem="lqW-Yn-s61" secondAttribute="centerX" id="9em-pA-M7O"/>
+                            <constraint firstItem="FpI-UR-Iq9" firstAttribute="trailing" secondItem="lqW-Yn-s61" secondAttribute="trailingMargin" id="9xr-UG-kid"/>
+                            <constraint firstItem="rfG-V9-eNA" firstAttribute="centerY" secondItem="lqW-Yn-s61" secondAttribute="centerY" multiplier="0.75" id="DYq-O6-A4u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iUh-Xa-M1k" secondAttribute="trailing" constant="-20" id="HDD-Ct-vGC"/>
+                            <constraint firstItem="iUh-Xa-M1k" firstAttribute="centerY" secondItem="lqW-Yn-s61" secondAttribute="centerY" multiplier="0.75" id="NyA-Dc-EJn"/>
+                            <constraint firstItem="2cx-sx-Bsq" firstAttribute="leading" secondItem="lqW-Yn-s61" secondAttribute="leadingMargin" constant="-20" id="Yex-8J-Go0"/>
+                            <constraint firstItem="zcK-3J-oRw" firstAttribute="top" secondItem="2cx-sx-Bsq" secondAttribute="bottom" constant="30" id="ctt-yE-FAh"/>
+                            <constraint firstItem="itC-ep-o9Y" firstAttribute="top" secondItem="FpI-UR-Iq9" secondAttribute="bottom" constant="20" id="dsz-hZ-RhV"/>
+                            <constraint firstItem="iUh-Xa-M1k" firstAttribute="leading" secondItem="lqW-Yn-s61" secondAttribute="leadingMargin" constant="-20" id="mI4-IN-k7e"/>
+                            <constraint firstItem="rfG-V9-eNA" firstAttribute="centerX" secondItem="lqW-Yn-s61" secondAttribute="centerX" id="p9g-ca-Zfa"/>
+                            <constraint firstItem="iUh-Xa-M1k" firstAttribute="top" secondItem="7Wx-lG-lDw" secondAttribute="bottom" id="pIe-Sg-CYN"/>
+                            <constraint firstItem="2cx-sx-Bsq" firstAttribute="top" secondItem="rfG-V9-eNA" secondAttribute="bottom" constant="10" id="pna-TF-Yp0"/>
+                            <constraint firstItem="FpI-UR-Iq9" firstAttribute="leading" secondItem="lqW-Yn-s61" secondAttribute="leadingMargin" id="vsl-yo-zgs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2cx-sx-Bsq" secondAttribute="trailing" constant="-20" id="x7b-yH-zQN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9em-pA-M7O"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginButton" destination="FpI-UR-Iq9" id="QJs-hF-XDS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Bs-x5-b7H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.5" y="409.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_logo" width="181" height="63"/>
+        <image name="login_photo_1" width="320" height="428"/>
+    </resources>
+</document>

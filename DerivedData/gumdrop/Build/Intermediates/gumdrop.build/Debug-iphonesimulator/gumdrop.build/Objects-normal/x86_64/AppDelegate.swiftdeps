@@ -1,0 +1,674 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "store"
+- "AppDelegate"
+provides-nominal:
+- "C7gumdrop11AppDelegate"
+provides-member:
+- ["C7gumdrop11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "applicationWillEnterForeground"
+- "window"
+- "applicationDidEnterBackground"
+- "application"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+depends-top-level:
+- !private "PFFacebookUtils"
+- "AppReducer"
+- "UIApplication"
+- "NSObject"
+- !private "RootRoutable"
+- !private "feedRoute"
+- "UIWindow"
+- !private "StringLiteralType"
+- !private "Parse"
+- !private "SetRouteAction"
+- "UIApplicationDelegate"
+- !private "FBSDKApplicationDelegate"
+- !private "loginRoute"
+- !private "UIScreen"
+- !private "UIViewController"
+- !private "Array"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- "AppState"
+- "UIResponder"
+- "Store"
+- "store"
+- "Bool"
+- "AppDelegate"
+- "Router"
+- "String"
+- "NSURL"
+depends-member:
+- !private ["P7ReSwift6Action", "init"]
+- !private ["PSs9AnyObject", "FBSDKApplicationDelegate"]
+- !private ["PSs9AnyObject", "PFFacebookUtils"]
+- !private ["PSs9AnyObject", "Parse"]
+- !private ["PSs9AnyObject", "RootRoutable"]
+- !private ["PSs9AnyObject", "Router"]
+- !private ["PSs9AnyObject", "SetRouteAction"]
+- !private ["PSs9AnyObject", "UIScreen"]
+- !private ["PSs9AnyObject", "UIViewController"]
+- !private ["PSs9AnyObject", "UIWindow"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "dispatch"]
+- !private ["PSs9AnyObject", "feedRoute"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSs9AnyObject", "loginRoute"]
+- !private ["PSs9AnyObject", "mainScreen"]
+- !private ["PSs9AnyObject", "makeKeyAndVisible"]
+- !private ["PSs9AnyObject", "rootViewController"]
+- ["PSs9AnyObject", "router"]
+- !private ["PSs9AnyObject", "setApplicationId"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "state"]
+- !private ["PSs9AnyObject", "store"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["P7ReSwift10AnyReducer", "init"]
+- !private ["P7ReSwift18AnyStoreSubscriber", "init"]
+- ["C7gumdrop11AppDelegate", "AnyObject"]
+- ["C7gumdrop11AppDelegate", "AppState"]
+- ["C7gumdrop11AppDelegate", "Bool"]
+- !private ["C7gumdrop11AppDelegate", "FBSDKApplicationDelegate"]
+- ["C7gumdrop11AppDelegate", "NSObject"]
+- ["C7gumdrop11AppDelegate", "NSURL"]
+- !private ["C7gumdrop11AppDelegate", "PFFacebookUtils"]
+- !private ["C7gumdrop11AppDelegate", "Parse"]
+- !private ["C7gumdrop11AppDelegate", "RootRoutable"]
+- ["C7gumdrop11AppDelegate", "Router"]
+- !private ["C7gumdrop11AppDelegate", "SetRouteAction"]
+- ["C7gumdrop11AppDelegate", "String"]
+- ["C7gumdrop11AppDelegate", "UIApplication"]
+- !private ["C7gumdrop11AppDelegate", "UIScreen"]
+- !private ["C7gumdrop11AppDelegate", "UIViewController"]
+- ["C7gumdrop11AppDelegate", "UIWindow"]
+- ["C7gumdrop11AppDelegate", "application"]
+- ["C7gumdrop11AppDelegate", "applicationDidBecomeActive"]
+- ["C7gumdrop11AppDelegate", "applicationDidEnterBackground"]
+- ["C7gumdrop11AppDelegate", "applicationDidFinishLaunching"]
+- ["C7gumdrop11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C7gumdrop11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C7gumdrop11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C7gumdrop11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C7gumdrop11AppDelegate", "applicationSignificantTimeChange"]
+- ["C7gumdrop11AppDelegate", "applicationWillEnterForeground"]
+- ["C7gumdrop11AppDelegate", "applicationWillResignActive"]
+- ["C7gumdrop11AppDelegate", "applicationWillTerminate"]
+- ["C7gumdrop11AppDelegate", "deinit"]
+- !private ["C7gumdrop11AppDelegate", "feedRoute"]
+- ["C7gumdrop11AppDelegate", "init"]
+- !private ["C7gumdrop11AppDelegate", "loginRoute"]
+- ["C7gumdrop11AppDelegate", "router"]
+- !private ["C7gumdrop11AppDelegate", "store"]
+- ["C7gumdrop11AppDelegate", "window"]
+- ["V7gumdrop10AppReducer", "deinit"]
+- ["V7gumdrop10AppReducer", "init"]
+- !private ["V7gumdrop8AppState", "authenticationState"]
+- ["V7gumdrop8AppState", "deinit"]
+- !private ["V7gumdrop8AppState", "navigationState"]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["V7gumdrop19AuthenticationState", "loggedInState"]
+- !private ["PSs11CVarArgType", "FBSDKApplicationDelegate"]
+- !private ["PSs11CVarArgType", "PFFacebookUtils"]
+- !private ["PSs11CVarArgType", "Parse"]
+- !private ["PSs11CVarArgType", "RootRoutable"]
+- !private ["PSs11CVarArgType", "Router"]
+- !private ["PSs11CVarArgType", "SetRouteAction"]
+- !private ["PSs11CVarArgType", "UIScreen"]
+- !private ["PSs11CVarArgType", "UIViewController"]
+- !private ["PSs11CVarArgType", "UIWindow"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "feedRoute"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSs11CVarArgType", "loginRoute"]
+- !private ["PSs11CVarArgType", "mainScreen"]
+- !private ["PSs11CVarArgType", "makeKeyAndVisible"]
+- !private ["PSs11CVarArgType", "rootViewController"]
+- ["PSs11CVarArgType", "router"]
+- !private ["PSs11CVarArgType", "setApplicationId"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "store"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "FBSDKApplicationDelegate"]
+- !private ["PSs23CustomStringConvertible", "PFFacebookUtils"]
+- !private ["PSs23CustomStringConvertible", "Parse"]
+- !private ["PSs23CustomStringConvertible", "RootRoutable"]
+- !private ["PSs23CustomStringConvertible", "Router"]
+- !private ["PSs23CustomStringConvertible", "SetRouteAction"]
+- !private ["PSs23CustomStringConvertible", "UIScreen"]
+- !private ["PSs23CustomStringConvertible", "UIViewController"]
+- !private ["PSs23CustomStringConvertible", "UIWindow"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "feedRoute"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSs23CustomStringConvertible", "loginRoute"]
+- !private ["PSs23CustomStringConvertible", "mainScreen"]
+- !private ["PSs23CustomStringConvertible", "makeKeyAndVisible"]
+- !private ["PSs23CustomStringConvertible", "rootViewController"]
+- ["PSs23CustomStringConvertible", "router"]
+- !private ["PSs23CustomStringConvertible", "setApplicationId"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "store"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FBSDKApplicationDelegate"]
+- ["PSs9Equatable", "LoggedIn"]
+- !private ["PSs9Equatable", "PFFacebookUtils"]
+- !private ["PSs9Equatable", "Parse"]
+- !private ["PSs9Equatable", "RootRoutable"]
+- !private ["PSs9Equatable", "Router"]
+- !private ["PSs9Equatable", "SetRouteAction"]
+- !private ["PSs9Equatable", "UIScreen"]
+- !private ["PSs9Equatable", "UIViewController"]
+- !private ["PSs9Equatable", "UIWindow"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "feedRoute"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSs9Equatable", "loginRoute"]
+- !private ["PSs9Equatable", "mainScreen"]
+- !private ["PSs9Equatable", "makeKeyAndVisible"]
+- !private ["PSs9Equatable", "rootViewController"]
+- ["PSs9Equatable", "router"]
+- !private ["PSs9Equatable", "setApplicationId"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "store"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["P7gumdrop22HasAuthenticationState", "authenticationState"]
+- !private ["P7gumdrop22HasAuthenticationState", "navigationState"]
+- !private ["P7gumdrop18HasNavigationState", "authenticationState"]
+- !private ["P7gumdrop18HasNavigationState", "navigationState"]
+- !private ["PSs8Hashable", "FBSDKApplicationDelegate"]
+- ["PSs8Hashable", "LoggedIn"]
+- !private ["PSs8Hashable", "PFFacebookUtils"]
+- !private ["PSs8Hashable", "Parse"]
+- !private ["PSs8Hashable", "RootRoutable"]
+- !private ["PSs8Hashable", "Router"]
+- !private ["PSs8Hashable", "SetRouteAction"]
+- !private ["PSs8Hashable", "UIScreen"]
+- !private ["PSs8Hashable", "UIViewController"]
+- !private ["PSs8Hashable", "UIWindow"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "feedRoute"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSs8Hashable", "loginRoute"]
+- !private ["PSs8Hashable", "mainScreen"]
+- !private ["PSs8Hashable", "makeKeyAndVisible"]
+- !private ["PSs8Hashable", "rootViewController"]
+- ["PSs8Hashable", "router"]
+- !private ["PSs8Hashable", "setApplicationId"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "store"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- ["O7gumdrop13LoggedInState", "LoggedIn"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "makeKeyAndVisible"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AppState"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "PFFacebookUtils"]
+- !private ["CSo8NSObject", "Parse"]
+- !private ["CSo8NSObject", "RootRoutable"]
+- ["CSo8NSObject", "Router"]
+- !private ["CSo8NSObject", "SetRouteAction"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIScreen"]
+- !private ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "feedRoute"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["CSo8NSObject", "loginRoute"]
+- !private ["CSo8NSObject", "mainScreen"]
+- !private ["CSo8NSObject", "makeKeyAndVisible"]
+- !private ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "router"]
+- !private ["CSo8NSObject", "setApplicationId"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "store"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
+- !private ["PSo16NSObjectProtocol", "PFFacebookUtils"]
+- !private ["PSo16NSObjectProtocol", "Parse"]
+- !private ["PSo16NSObjectProtocol", "RootRoutable"]
+- !private ["PSo16NSObjectProtocol", "Router"]
+- !private ["PSo16NSObjectProtocol", "SetRouteAction"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "UIViewController"]
+- !private ["PSo16NSObjectProtocol", "UIWindow"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "feedRoute"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["PSo16NSObjectProtocol", "loginRoute"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- !private ["PSo16NSObjectProtocol", "makeKeyAndVisible"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "router"]
+- !private ["PSo16NSObjectProtocol", "setApplicationId"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "store"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo15PFFacebookUtils", "initializeFacebookWithApplicationLaunchOptions"]
+- !private ["CSo5Parse", "setApplicationId"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- ["P7ReSwift7Reducer", "init"]
+- !private ["C7gumdrop12RootRoutable", "deinit"]
+- !private ["C7gumdrop12RootRoutable", "init"]
+- !private ["P13ReSwiftRouter8Routable", "init"]
+- !private ["C13ReSwiftRouter6Router", "init"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["V13ReSwiftRouter14SetRouteAction", "init"]
+- !private ["V7ReSwift14StandardAction", "deinit"]
+- !private ["P7ReSwift25StandardActionConvertible", "init"]
+- !private ["P7ReSwift9StateType", "authenticationState"]
+- !private ["P7ReSwift9StateType", "navigationState"]
+- !private ["C7ReSwift5Store", "dispatch"]
+- ["C7ReSwift5Store", "init"]
+- !private ["C7ReSwift5Store", "state"]
+- !private ["P7ReSwift15StoreSubscriber", "init"]
+- !private ["P7ReSwift9StoreType", "dispatch"]
+- ["P7ReSwift9StoreType", "init"]
+- !private ["P7ReSwift9StoreType", "state"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "makeKeyAndVisible"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "makeKeyAndVisible"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
+- !private ["PSo21UIApplicationDelegate", "PFFacebookUtils"]
+- !private ["PSo21UIApplicationDelegate", "Parse"]
+- !private ["PSo21UIApplicationDelegate", "RootRoutable"]
+- !private ["PSo21UIApplicationDelegate", "Router"]
+- !private ["PSo21UIApplicationDelegate", "SetRouteAction"]
+- !private ["PSo21UIApplicationDelegate", "UIScreen"]
+- !private ["PSo21UIApplicationDelegate", "UIViewController"]
+- !private ["PSo21UIApplicationDelegate", "UIWindow"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "feedRoute"]
+- !private ["PSo21UIApplicationDelegate", "loginRoute"]
+- !private ["PSo21UIApplicationDelegate", "router"]
+- !private ["PSo21UIApplicationDelegate", "store"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "makeKeyAndVisible"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "makeKeyAndVisible"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "makeKeyAndVisible"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AppState"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "PFFacebookUtils"]
+- !private ["CSo11UIResponder", "Parse"]
+- !private ["CSo11UIResponder", "RootRoutable"]
+- ["CSo11UIResponder", "Router"]
+- !private ["CSo11UIResponder", "SetRouteAction"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- !private ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- !private ["CSo11UIResponder", "feedRoute"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "loginRoute"]
+- !private ["CSo11UIResponder", "makeKeyAndVisible"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "router"]
+- !private ["CSo11UIResponder", "store"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "makeKeyAndVisible"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "makeKeyAndVisible"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo8UIWindow", "init"]
+- !private ["CSo8UIWindow", "makeKeyAndVisible"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "makeKeyAndVisible"]
+- !private ["PSs12_Reflectable", "rootViewController"]
+depends-nominal:
+- !private "P7ReSwift6Action"
+- "PSs9AnyObject"
+- "P7ReSwift10AnyReducer"
+- !private "P7ReSwift18AnyStoreSubscriber"
+- "C7gumdrop11AppDelegate"
+- "V7gumdrop10AppReducer"
+- "V7gumdrop8AppState"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "V7gumdrop19AuthenticationState"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "CSo24FBSDKApplicationDelegate"
+- !private "P7gumdrop22HasAuthenticationState"
+- !private "P7gumdrop18HasNavigationState"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- "O7gumdrop13LoggedInState"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo15PFFacebookUtils"
+- !private "CSo5Parse"
+- !private "PSs30RangeReplaceableCollectionType"
+- "P7ReSwift7Reducer"
+- !private "C7gumdrop12RootRoutable"
+- !private "P13ReSwiftRouter8Routable"
+- !private "C13ReSwiftRouter6Router"
+- !private "PSs12SequenceType"
+- !private "V13ReSwiftRouter14SetRouteAction"
+- !private "V7ReSwift14StandardAction"
+- !private "P7ReSwift25StandardActionConvertible"
+- !private "P7ReSwift9StateType"
+- "C7ReSwift5Store"
+- !private "P7ReSwift15StoreSubscriber"
+- "P7ReSwift9StoreType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "CSo8UIScreen"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/gumdrop-Bridging-Header.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Public/Localytics/Localytics.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/ReSwiftRouter.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/PFFacebookUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Modules/module.modulemap"
+interface-hash: "5489d1ccda1bd4f3153c0689021c6e2c"

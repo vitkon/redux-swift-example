@@ -1,0 +1,6 @@
+framework module ParseCrashReporting {
+  umbrella header "ParseCrashReporting-umbrella.h"
+
+  export *
+  module * { export * }
+}

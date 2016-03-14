@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2e76bda75b6f686b7fea4c7485e21932"
+build_time: [511218579, 56625000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AppReducer.swift": [510793602, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/Routes.swift": [510873361, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/FeedViewController.swift": [510967264, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/LoginViewController.swift": [511201552, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/CircularImageView.swift": [511218570, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AppDelegate.swift": [511182743, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AuthenticationState.swift": [510793602, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AuthenticationActions.swift": [511215563, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/UIViewController+Extensions.swift": [510881913, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AuthenticationReducer.swift": [511201552, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/AppState.swift": [510793653, 0]

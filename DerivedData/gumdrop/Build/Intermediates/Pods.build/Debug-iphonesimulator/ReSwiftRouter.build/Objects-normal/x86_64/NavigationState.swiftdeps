@@ -1,0 +1,41 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouteElementIdentifier"
+- "Route"
+- "NavigationState"
+provides-nominal:
+- "V13ReSwiftRouter15NavigationState"
+provides-member:
+- ["V13ReSwiftRouter15NavigationState", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NavigationState"
+- "Route"
+- "RouteElementIdentifier"
+- "StateType"
+- "String"
+depends-member:
+- ["V13ReSwiftRouter15NavigationState", "Route"]
+- ["V13ReSwiftRouter15NavigationState", "StateType"]
+- ["V13ReSwiftRouter15NavigationState", "init"]
+- ["V13ReSwiftRouter15NavigationState", "route"]
+- ["V13ReSwiftRouter15NavigationState", "subRouteState"]
+depends-nominal:
+- "V13ReSwiftRouter15NavigationState"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwiftRouter/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReSwiftRouter.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwift/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReSwift.build/module.modulemap"
+interface-hash: "ee7e0dbd2d264de6fef1c7cb37895a6a"

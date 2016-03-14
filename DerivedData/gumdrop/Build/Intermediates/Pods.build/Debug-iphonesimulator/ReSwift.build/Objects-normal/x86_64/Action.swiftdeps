@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StandardAction"
+- "StandardActionConvertible"
+- "Action"
+- "ReSwiftInit"
+provides-nominal:
+- "V7ReSwift14StandardAction"
+- "P7ReSwift25StandardActionConvertible"
+- "P7ReSwift6Action"
+- "V7ReSwift11ReSwiftInit"
+provides-member:
+- ["V7ReSwift14StandardAction", ""]
+- ["P7ReSwift25StandardActionConvertible", ""]
+- ["P7ReSwift6Action", ""]
+- ["V7ReSwift11ReSwiftInit", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Int"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "String"
+- "ReSwiftInit"
+- "Coding"
+- "StandardAction"
+- !private "??"
+- "Action"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "=="
+- "StandardActionConvertible"
+- "AnyObject"
+depends-member:
+- ["P7ReSwift6Action", "StandardAction"]
+- ["P7ReSwift6Action", "dictionaryRepresentation"]
+- ["P7ReSwift6Action", "init"]
+- !private ["P7ReSwift6Action", "isTypedAction"]
+- !private ["P7ReSwift6Action", "payload"]
+- !private ["P7ReSwift6Action", "type"]
+- ["P7ReSwift6Action", ""]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["P7ReSwift6Coding", "dictionaryRepresentation"]
+- ["P7ReSwift6Coding", "init"]
+- !private ["P7ReSwift6Coding", "isTypedAction"]
+- !private ["P7ReSwift6Coding", "payload"]
+- !private ["P7ReSwift6Coding", "type"]
+- ["P7ReSwift6Coding", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Sq", "deinit"]
+- ["V7ReSwift11ReSwiftInit", "deinit"]
+- ["V7ReSwift11ReSwiftInit", "init"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- ["V7ReSwift14StandardAction", "AnyObject"]
+- ["V7ReSwift14StandardAction", "Bool"]
+- !private ["V7ReSwift14StandardAction", "Int"]
+- ["V7ReSwift14StandardAction", "String"]
+- ["V7ReSwift14StandardAction", "deinit"]
+- ["V7ReSwift14StandardAction", "dictionaryRepresentation"]
+- ["V7ReSwift14StandardAction", "init"]
+- ["V7ReSwift14StandardAction", "isTypedAction"]
+- ["V7ReSwift14StandardAction", "payload"]
+- ["V7ReSwift14StandardAction", "type"]
+- ["P7ReSwift25StandardActionConvertible", "StandardAction"]
+- ["P7ReSwift25StandardActionConvertible", "init"]
+- ["P7ReSwift25StandardActionConvertible", "toStandardAction"]
+- !private ["SS", "deinit"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "P7ReSwift6Action"
+- !private "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "P7ReSwift6Coding"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "PSs9Equatable"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "Sq"
+- "V7ReSwift11ReSwiftInit"
+- !private "PSs12SequenceType"
+- !private "VSs5Slice"
+- "V7ReSwift14StandardAction"
+- "P7ReSwift25StandardActionConvertible"
+- !private "SS"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Target Support Files/ReSwift/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "b2ae8c18b31271e1a777696bbcaf0a27"

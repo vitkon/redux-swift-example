@@ -1,0 +1,727 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CircularImageView"
+provides-nominal:
+- "C7gumdrop17CircularImageView"
+provides-member:
+- ["C7gumdrop17CircularImageView", ""]
+provides-dynamic-lookup:
+- "backgroundLayer"
+- "setBackgroundImageLayer"
+- "image"
+- "backgroundLayerColor"
+- "setBackgroundLayer"
+- "setImage"
+- "userImage"
+- "lineWidth"
+- "layoutSubviews"
+- "imageLayer"
+depends-top-level:
+- "UIImage"
+- !private "kCAGravityResizeAspectFill"
+- !private "!="
+- "UIColor"
+- "CALayer"
+- !private "=="
+- !private "+"
+- !private "UIBezierPath"
+- "CGFloat"
+- "UIView"
+- "CAShapeLayer"
+- "CircularImageView"
+- !private "/"
+- !private "CGRectInset"
+depends-member:
+- !private ["PSs9AnyObject", "CAShapeLayer"]
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGImage"]
+- !private ["PSs9AnyObject", "CGPath"]
+- !private ["PSs9AnyObject", "CGRectInset"]
+- !private ["PSs9AnyObject", "UIBezierPath"]
+- ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "addSublayer"]
+- ["PSs9AnyObject", "backgroundLayer"]
+- ["PSs9AnyObject", "backgroundLayerColor"]
+- !private ["PSs9AnyObject", "blackColor"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "contents"]
+- !private ["PSs9AnyObject", "contentsGravity"]
+- !private ["PSs9AnyObject", "fillColor"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "grayColor"]
+- ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "imageLayer"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kCAGravityResizeAspectFill"]
+- !private ["PSs9AnyObject", "layer"]
+- ["PSs9AnyObject", "layoutSubviews"]
+- ["PSs9AnyObject", "lineWidth"]
+- !private ["PSs9AnyObject", "mask"]
+- !private ["PSs9AnyObject", "path"]
+- ["PSs9AnyObject", "setBackgroundImageLayer"]
+- ["PSs9AnyObject", "setBackgroundLayer"]
+- ["PSs9AnyObject", "setImage"]
+- ["PSs9AnyObject", "userImage"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "addSublayer"]
+- !private ["CSo7CALayer", "bounds"]
+- !private ["CSo7CALayer", "contents"]
+- !private ["CSo7CALayer", "contentsGravity"]
+- !private ["CSo7CALayer", "deinit"]
+- !private ["CSo7CALayer", "fillColor"]
+- !private ["CSo7CALayer", "frame"]
+- !private ["CSo7CALayer", "init"]
+- !private ["CSo7CALayer", "lineWidth"]
+- !private ["CSo7CALayer", "mask"]
+- !private ["CSo7CALayer", "path"]
+- !private ["PSo13CAMediaTiming", "addSublayer"]
+- !private ["PSo13CAMediaTiming", "bounds"]
+- !private ["PSo13CAMediaTiming", "contents"]
+- !private ["PSo13CAMediaTiming", "contentsGravity"]
+- !private ["PSo13CAMediaTiming", "fillColor"]
+- !private ["PSo13CAMediaTiming", "frame"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "lineWidth"]
+- !private ["PSo13CAMediaTiming", "mask"]
+- !private ["PSo13CAMediaTiming", "path"]
+- !private ["CSo12CAShapeLayer", "deinit"]
+- !private ["CSo12CAShapeLayer", "fillColor"]
+- !private ["CSo12CAShapeLayer", "frame"]
+- !private ["CSo12CAShapeLayer", "init"]
+- !private ["CSo12CAShapeLayer", "lineWidth"]
+- !private ["CSo12CAShapeLayer", "path"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CAShapeLayer"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGImage"]
+- !private ["PSs11CVarArgType", "CGPath"]
+- !private ["PSs11CVarArgType", "CGRectInset"]
+- !private ["PSs11CVarArgType", "UIBezierPath"]
+- ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "addSublayer"]
+- ["PSs11CVarArgType", "backgroundLayer"]
+- ["PSs11CVarArgType", "backgroundLayerColor"]
+- !private ["PSs11CVarArgType", "blackColor"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "contents"]
+- !private ["PSs11CVarArgType", "contentsGravity"]
+- !private ["PSs11CVarArgType", "fillColor"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "grayColor"]
+- ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "imageLayer"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "kCAGravityResizeAspectFill"]
+- !private ["PSs11CVarArgType", "layer"]
+- ["PSs11CVarArgType", "layoutSubviews"]
+- ["PSs11CVarArgType", "lineWidth"]
+- !private ["PSs11CVarArgType", "mask"]
+- !private ["PSs11CVarArgType", "path"]
+- ["PSs11CVarArgType", "setBackgroundImageLayer"]
+- ["PSs11CVarArgType", "setBackgroundLayer"]
+- ["PSs11CVarArgType", "setImage"]
+- ["PSs11CVarArgType", "userImage"]
+- ["PSs11CVarArgType", ""]
+- ["C7gumdrop17CircularImageView", "CALayer"]
+- ["C7gumdrop17CircularImageView", "CAShapeLayer"]
+- ["C7gumdrop17CircularImageView", "CGFloat"]
+- !private ["C7gumdrop17CircularImageView", "CGRectInset"]
+- !private ["C7gumdrop17CircularImageView", "UIBezierPath"]
+- ["C7gumdrop17CircularImageView", "UIColor"]
+- ["C7gumdrop17CircularImageView", "UIImage"]
+- ["C7gumdrop17CircularImageView", "backgroundLayer"]
+- ["C7gumdrop17CircularImageView", "backgroundLayerColor"]
+- !private ["C7gumdrop17CircularImageView", "bounds"]
+- ["C7gumdrop17CircularImageView", "deinit"]
+- ["C7gumdrop17CircularImageView", "image"]
+- ["C7gumdrop17CircularImageView", "imageLayer"]
+- ["C7gumdrop17CircularImageView", "init"]
+- !private ["C7gumdrop17CircularImageView", "kCAGravityResizeAspectFill"]
+- !private ["C7gumdrop17CircularImageView", "layer"]
+- ["C7gumdrop17CircularImageView", "layoutSubviews"]
+- ["C7gumdrop17CircularImageView", "lineWidth"]
+- ["C7gumdrop17CircularImageView", "setBackgroundImageLayer"]
+- ["C7gumdrop17CircularImageView", "setBackgroundLayer"]
+- ["C7gumdrop17CircularImageView", "setImage"]
+- ["C7gumdrop17CircularImageView", "userImage"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "CAShapeLayer"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGImage"]
+- !private ["PSs23CustomStringConvertible", "CGPath"]
+- !private ["PSs23CustomStringConvertible", "CGRectInset"]
+- !private ["PSs23CustomStringConvertible", "UIBezierPath"]
+- ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSublayer"]
+- ["PSs23CustomStringConvertible", "backgroundLayer"]
+- ["PSs23CustomStringConvertible", "backgroundLayerColor"]
+- !private ["PSs23CustomStringConvertible", "blackColor"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "contents"]
+- !private ["PSs23CustomStringConvertible", "contentsGravity"]
+- !private ["PSs23CustomStringConvertible", "fillColor"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "grayColor"]
+- ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "imageLayer"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "kCAGravityResizeAspectFill"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- ["PSs23CustomStringConvertible", "layoutSubviews"]
+- ["PSs23CustomStringConvertible", "lineWidth"]
+- !private ["PSs23CustomStringConvertible", "mask"]
+- !private ["PSs23CustomStringConvertible", "path"]
+- ["PSs23CustomStringConvertible", "setBackgroundImageLayer"]
+- ["PSs23CustomStringConvertible", "setBackgroundLayer"]
+- ["PSs23CustomStringConvertible", "setImage"]
+- ["PSs23CustomStringConvertible", "userImage"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CAShapeLayer"]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGImage"]
+- !private ["PSs9Equatable", "CGPath"]
+- !private ["PSs9Equatable", "CGRectInset"]
+- !private ["PSs9Equatable", "UIBezierPath"]
+- ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSublayer"]
+- ["PSs9Equatable", "backgroundLayer"]
+- ["PSs9Equatable", "backgroundLayerColor"]
+- !private ["PSs9Equatable", "blackColor"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "contents"]
+- !private ["PSs9Equatable", "contentsGravity"]
+- !private ["PSs9Equatable", "fillColor"]
+- !private ["PSs9Equatable", "frame"]
+- ["PSs9Equatable", "grayColor"]
+- ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "imageLayer"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "kCAGravityResizeAspectFill"]
+- !private ["PSs9Equatable", "layer"]
+- ["PSs9Equatable", "layoutSubviews"]
+- ["PSs9Equatable", "lineWidth"]
+- !private ["PSs9Equatable", "mask"]
+- !private ["PSs9Equatable", "path"]
+- ["PSs9Equatable", "setBackgroundImageLayer"]
+- ["PSs9Equatable", "setBackgroundLayer"]
+- ["PSs9Equatable", "setImage"]
+- ["PSs9Equatable", "userImage"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CAShapeLayer"]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGImage"]
+- !private ["PSs8Hashable", "CGPath"]
+- !private ["PSs8Hashable", "CGRectInset"]
+- !private ["PSs8Hashable", "UIBezierPath"]
+- ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSublayer"]
+- ["PSs8Hashable", "backgroundLayer"]
+- ["PSs8Hashable", "backgroundLayerColor"]
+- !private ["PSs8Hashable", "blackColor"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "contents"]
+- !private ["PSs8Hashable", "contentsGravity"]
+- !private ["PSs8Hashable", "fillColor"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "grayColor"]
+- ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "imageLayer"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "kCAGravityResizeAspectFill"]
+- !private ["PSs8Hashable", "layer"]
+- ["PSs8Hashable", "layoutSubviews"]
+- ["PSs8Hashable", "lineWidth"]
+- !private ["PSs8Hashable", "mask"]
+- !private ["PSs8Hashable", "path"]
+- ["PSs8Hashable", "setBackgroundImageLayer"]
+- ["PSs8Hashable", "setBackgroundLayer"]
+- ["PSs8Hashable", "setImage"]
+- ["PSs8Hashable", "userImage"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSo8NSCoding", "CAShapeLayer"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGImage"]
+- !private ["PSo8NSCoding", "CGPath"]
+- !private ["PSo8NSCoding", "CGRectInset"]
+- !private ["PSo8NSCoding", "UIBezierPath"]
+- ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "addSublayer"]
+- ["PSo8NSCoding", "backgroundLayer"]
+- ["PSo8NSCoding", "backgroundLayerColor"]
+- !private ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "contents"]
+- !private ["PSo8NSCoding", "contentsGravity"]
+- !private ["PSo8NSCoding", "fillColor"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "grayColor"]
+- ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageLayer"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAGravityResizeAspectFill"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "layoutSubviews"]
+- ["PSo8NSCoding", "lineWidth"]
+- !private ["PSo8NSCoding", "mask"]
+- !private ["PSo8NSCoding", "path"]
+- ["PSo8NSCoding", "setBackgroundImageLayer"]
+- ["PSo8NSCoding", "setBackgroundLayer"]
+- ["PSo8NSCoding", "setImage"]
+- ["PSo8NSCoding", "userImage"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "CGPath"]
+- !private ["PSo9NSCopying", "blackColor"]
+- ["PSo9NSCopying", "grayColor"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "CALayer"]
+- ["CSo8NSObject", "CAShapeLayer"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGImage"]
+- !private ["CSo8NSObject", "CGPath"]
+- !private ["CSo8NSObject", "CGRectInset"]
+- !private ["CSo8NSObject", "UIBezierPath"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "addSublayer"]
+- ["CSo8NSObject", "backgroundLayer"]
+- ["CSo8NSObject", "backgroundLayerColor"]
+- !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "contents"]
+- !private ["CSo8NSObject", "contentsGravity"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "fillColor"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "grayColor"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageLayer"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAGravityResizeAspectFill"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "layoutSubviews"]
+- ["CSo8NSObject", "lineWidth"]
+- !private ["CSo8NSObject", "mask"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "setBackgroundImageLayer"]
+- ["CSo8NSObject", "setBackgroundLayer"]
+- ["CSo8NSObject", "setImage"]
+- ["CSo8NSObject", "userImage"]
+- !private ["PSo16NSObjectProtocol", "CAShapeLayer"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGImage"]
+- !private ["PSo16NSObjectProtocol", "CGPath"]
+- !private ["PSo16NSObjectProtocol", "CGRectInset"]
+- !private ["PSo16NSObjectProtocol", "UIBezierPath"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "addSublayer"]
+- ["PSo16NSObjectProtocol", "backgroundLayer"]
+- ["PSo16NSObjectProtocol", "backgroundLayerColor"]
+- !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "contents"]
+- !private ["PSo16NSObjectProtocol", "contentsGravity"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "grayColor"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageLayer"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAGravityResizeAspectFill"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "layoutSubviews"]
+- ["PSo16NSObjectProtocol", "lineWidth"]
+- !private ["PSo16NSObjectProtocol", "mask"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- ["PSo16NSObjectProtocol", "setBackgroundImageLayer"]
+- ["PSo16NSObjectProtocol", "setBackgroundLayer"]
+- ["PSo16NSObjectProtocol", "setImage"]
+- ["PSo16NSObjectProtocol", "userImage"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "CGImage"]
+- !private ["PSo14NSSecureCoding", "blackColor"]
+- ["PSo14NSSecureCoding", "grayColor"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CAShapeLayer"]
+- !private ["PSo29UIAccessibilityIdentification", "CGImage"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectInset"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBezierPath"]
+- ["PSo29UIAccessibilityIdentification", "UIColor"]
+- ["PSo29UIAccessibilityIdentification", "backgroundLayer"]
+- ["PSo29UIAccessibilityIdentification", "backgroundLayerColor"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "imageLayer"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "kCAGravityResizeAspectFill"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
+- ["PSo29UIAccessibilityIdentification", "lineWidth"]
+- ["PSo29UIAccessibilityIdentification", "setBackgroundImageLayer"]
+- ["PSo29UIAccessibilityIdentification", "setBackgroundLayer"]
+- ["PSo29UIAccessibilityIdentification", "setImage"]
+- ["PSo29UIAccessibilityIdentification", "userImage"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CAShapeLayer"]
+- !private ["PSo12UIAppearance", "CGRectInset"]
+- !private ["PSo12UIAppearance", "UIBezierPath"]
+- ["PSo12UIAppearance", "UIColor"]
+- ["PSo12UIAppearance", "backgroundLayer"]
+- ["PSo12UIAppearance", "backgroundLayerColor"]
+- !private ["PSo12UIAppearance", "bounds"]
+- ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "imageLayer"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "kCAGravityResizeAspectFill"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "layoutSubviews"]
+- ["PSo12UIAppearance", "lineWidth"]
+- ["PSo12UIAppearance", "setBackgroundImageLayer"]
+- ["PSo12UIAppearance", "setBackgroundLayer"]
+- ["PSo12UIAppearance", "setImage"]
+- ["PSo12UIAppearance", "userImage"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CAShapeLayer"]
+- !private ["PSo21UIAppearanceContainer", "CGRectInset"]
+- !private ["PSo21UIAppearanceContainer", "UIBezierPath"]
+- ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "backgroundLayer"]
+- ["PSo21UIAppearanceContainer", "backgroundLayerColor"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageLayer"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kCAGravityResizeAspectFill"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "layoutSubviews"]
+- ["PSo21UIAppearanceContainer", "lineWidth"]
+- ["PSo21UIAppearanceContainer", "setBackgroundImageLayer"]
+- ["PSo21UIAppearanceContainer", "setBackgroundLayer"]
+- ["PSo21UIAppearanceContainer", "setImage"]
+- ["PSo21UIAppearanceContainer", "userImage"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo12UIBezierPath", "CGPath"]
+- !private ["CSo12UIBezierPath", "init"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "blackColor"]
+- ["CSo7UIColor", "grayColor"]
+- !private ["PSo17UICoordinateSpace", "CAShapeLayer"]
+- !private ["PSo17UICoordinateSpace", "CGRectInset"]
+- !private ["PSo17UICoordinateSpace", "UIBezierPath"]
+- ["PSo17UICoordinateSpace", "UIColor"]
+- ["PSo17UICoordinateSpace", "backgroundLayer"]
+- ["PSo17UICoordinateSpace", "backgroundLayerColor"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "imageLayer"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "kCAGravityResizeAspectFill"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "layoutSubviews"]
+- ["PSo17UICoordinateSpace", "lineWidth"]
+- ["PSo17UICoordinateSpace", "setBackgroundImageLayer"]
+- ["PSo17UICoordinateSpace", "setBackgroundLayer"]
+- ["PSo17UICoordinateSpace", "setImage"]
+- ["PSo17UICoordinateSpace", "userImage"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CAShapeLayer"]
+- !private ["PSo13UIDynamicItem", "CGRectInset"]
+- !private ["PSo13UIDynamicItem", "UIBezierPath"]
+- ["PSo13UIDynamicItem", "UIColor"]
+- ["PSo13UIDynamicItem", "backgroundLayer"]
+- ["PSo13UIDynamicItem", "backgroundLayerColor"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "imageLayer"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "kCAGravityResizeAspectFill"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "layoutSubviews"]
+- ["PSo13UIDynamicItem", "lineWidth"]
+- ["PSo13UIDynamicItem", "setBackgroundImageLayer"]
+- ["PSo13UIDynamicItem", "setBackgroundLayer"]
+- ["PSo13UIDynamicItem", "setImage"]
+- ["PSo13UIDynamicItem", "userImage"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CAShapeLayer"]
+- !private ["PSo18UIFocusEnvironment", "CGRectInset"]
+- !private ["PSo18UIFocusEnvironment", "UIBezierPath"]
+- ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "backgroundLayer"]
+- ["PSo18UIFocusEnvironment", "backgroundLayerColor"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageLayer"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kCAGravityResizeAspectFill"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "layoutSubviews"]
+- ["PSo18UIFocusEnvironment", "lineWidth"]
+- ["PSo18UIFocusEnvironment", "setBackgroundImageLayer"]
+- ["PSo18UIFocusEnvironment", "setBackgroundLayer"]
+- ["PSo18UIFocusEnvironment", "setImage"]
+- ["PSo18UIFocusEnvironment", "userImage"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "CGImage"]
+- ["CSo11UIResponder", "CALayer"]
+- ["CSo11UIResponder", "CAShapeLayer"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGRectInset"]
+- !private ["CSo11UIResponder", "UIBezierPath"]
+- ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "backgroundLayer"]
+- ["CSo11UIResponder", "backgroundLayerColor"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageLayer"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kCAGravityResizeAspectFill"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "layoutSubviews"]
+- ["CSo11UIResponder", "lineWidth"]
+- ["CSo11UIResponder", "setBackgroundImageLayer"]
+- ["CSo11UIResponder", "setBackgroundLayer"]
+- ["CSo11UIResponder", "setImage"]
+- ["CSo11UIResponder", "userImage"]
+- !private ["PSo18UITraitEnvironment", "CAShapeLayer"]
+- !private ["PSo18UITraitEnvironment", "CGRectInset"]
+- !private ["PSo18UITraitEnvironment", "UIBezierPath"]
+- ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "backgroundLayer"]
+- ["PSo18UITraitEnvironment", "backgroundLayerColor"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageLayer"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kCAGravityResizeAspectFill"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "layoutSubviews"]
+- ["PSo18UITraitEnvironment", "lineWidth"]
+- ["PSo18UITraitEnvironment", "setBackgroundImageLayer"]
+- ["PSo18UITraitEnvironment", "setBackgroundLayer"]
+- ["PSo18UITraitEnvironment", "setImage"]
+- ["PSo18UITraitEnvironment", "userImage"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CALayer"]
+- ["CSo6UIView", "CAShapeLayer"]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "CGRectInset"]
+- !private ["CSo6UIView", "UIBezierPath"]
+- ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "backgroundLayer"]
+- ["CSo6UIView", "backgroundLayerColor"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "image"]
+- ["CSo6UIView", "imageLayer"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "kCAGravityResizeAspectFill"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "layoutSubviews"]
+- ["CSo6UIView", "lineWidth"]
+- ["CSo6UIView", "setBackgroundImageLayer"]
+- ["CSo6UIView", "setBackgroundLayer"]
+- ["CSo6UIView", "setImage"]
+- ["CSo6UIView", "userImage"]
+- ["CSo6UIView", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "blackColor"]
+- ["PSs24_ColorLiteralConvertible", "grayColor"]
+- !private ["PSs24_ImageLiteralConvertible", "CGImage"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "CAShapeLayer"]
+- !private ["PSs12_Reflectable", "CGRectInset"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "UIBezierPath"]
+- ["PSs12_Reflectable", "UIColor"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- ["PSs12_Reflectable", "backgroundLayer"]
+- ["PSs12_Reflectable", "backgroundLayerColor"]
+- !private ["PSs12_Reflectable", "bounds"]
+- ["PSs12_Reflectable", "image"]
+- ["PSs12_Reflectable", "imageLayer"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "kCAGravityResizeAspectFill"]
+- !private ["PSs12_Reflectable", "layer"]
+- ["PSs12_Reflectable", "layoutSubviews"]
+- ["PSs12_Reflectable", "lineWidth"]
+- ["PSs12_Reflectable", "setBackgroundImageLayer"]
+- ["PSs12_Reflectable", "setBackgroundLayer"]
+- ["PSs12_Reflectable", "setImage"]
+- ["PSs12_Reflectable", "userImage"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo12CAShapeLayer"
+- "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "C7gumdrop17CircularImageView"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo12UIBezierPath"
+- "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- "PSs24_ColorLiteralConvertible"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/gumdrop/gumdrop-Bridging-Header.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/Headers/Public/Localytics/Localytics.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Modules/ReSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Headers/ReSwift-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwift.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/ReSwiftRouter.swiftmodule/x86_64.swiftmodule"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-Swift.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Headers/ReSwiftRouter-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ReSwiftRouter.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/PFFacebookUtils.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Headers/ParseFacebookUtilsV4-umbrella.h"
+- "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/DerivedData/gumdrop/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ParseFacebookUtilsV4.framework/Modules/module.modulemap"
+interface-hash: "bac9c3b3026462ac1a8b689bc257efea"

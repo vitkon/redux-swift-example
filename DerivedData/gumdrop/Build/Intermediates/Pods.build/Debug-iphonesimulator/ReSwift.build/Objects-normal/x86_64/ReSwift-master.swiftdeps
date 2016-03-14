@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "bbf7e5f1f1204cbb9042cf3f25829d24"
+build_time: [511218903, 918655000]
+inputs:
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/Reducer.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/StoreSubscriber.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/Utils/TypeHelper.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/Utils/Coding.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/Action.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/State.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/Middleware.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/StoreType.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/CombinedReducer.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/Store.swift": [510763513, 0]
+  "/Users/vkondratiev/Developer/iOS/gd-new/gumdrop/Pods/ReSwift/ReSwift/CoreTypes/Subscription.swift": [510763513, 0]

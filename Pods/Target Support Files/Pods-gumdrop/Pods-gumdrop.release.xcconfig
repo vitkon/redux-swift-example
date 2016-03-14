@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Localytics"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Localytics/Localytics-iOS-3.7.0" $(inherited) "${PODS_ROOT}/Localytics/Localytics-iOS-3.7.0"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Branch.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSDKCoreKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSDKLoginKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ImageLoader.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ObjectMapper.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Parse.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ParseCrashReporting.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ParseFacebookUtilsV4.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ReSwift.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ReSwiftRouter.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ReachabilitySwift.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SwiftyJSON.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Localytics"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Localytics" -l"sqlite3" -l"z" -framework "Bolts" -framework "Branch" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit" -framework "ImageLoader" -framework "ObjectMapper" -framework "Parse" -framework "ParseCrashReporting" -framework "ParseFacebookUtilsV4" -framework "ReSwift" -framework "ReSwiftRouter" -framework "ReachabilitySwift" -framework "SwiftyJSON" -framework "SystemConfiguration" -weak_framework "AdSupport"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-gumdrop
+PODS_ROOT = ${SRCROOT}/Pods
